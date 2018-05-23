@@ -17,6 +17,11 @@ public class Client {
         }
     }
 
+    /**
+     * creates an element for Client order
+     * @param choice number of the element
+     * @return randomly selected Page format
+     */
     private String selectPageFormat(int choice) {
         if (choice == 0) return "A2";
         if (choice == 1) return "A3";
